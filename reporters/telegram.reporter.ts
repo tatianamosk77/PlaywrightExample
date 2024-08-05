@@ -7,7 +7,7 @@ import axios from 'axios';
    
     async onTestEnd(test: TestCase, result: TestResult) {
         console.log(`The test finished ${test.title}: ${result.status}`);
-        const response = await axios.get(`https://api.telegram.org/bot6085237023:AAHAgm7JldCCECT4jNUYy-D_DGGStQ78v6o/sendMessage?chat_id=-10019602628508&text= ${test.title}:  ${result.status}`);
+        const response = await axios.get(`https://api.telegram.org/bot6085237023:AXHAgm7JldCCECT4jNUYy-D_DGGStQ78v6o/sendMessage?chat_id=-10019602628508&text= ${test.title}:  ${result.status}`);
 
       }
     
