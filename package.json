@@ -1,0 +1,18 @@
+{
+  "name": "inzhenerka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.1.0",
+    "allure-playwright": "^3.0.0-beta.8"
+  },
+  "dependencies": {
+    "axios": "^1.7.3"
+  }
+}
